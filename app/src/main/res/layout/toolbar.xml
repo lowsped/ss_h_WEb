@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/LinearLayout1"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+android:weightSum="1"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/myText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SSH GRATIS"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#0e0e0e"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/btnStyleOrange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnHelp"
+        android:layout_alignRight="@+id/btnHelp"
+        android:layout_below="@+id/btnHelp"
+        android:layout_marginTop="5dp"
+        android:onClick="klikButton"
+        android:text="SSH 3"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/btnStyleOrange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnHelp"
+        android:layout_alignRight="@+id/btnHelp"
+        android:layout_below="@+id/btnHelp"
+        android:layout_marginTop="5dp"
+        android:onClick="klikButton"
+        android:text="SSH 3"
+        android:textColor="#fff" />
+
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/btnStyleOrange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnHelp"
+        android:layout_alignRight="@+id/btnHelp"
+        android:layout_below="@+id/btnHelp"
+        android:layout_marginTop="5dp"
+        android:onClick="klikButton"
+        android:text="SSH 3"
+        android:textColor="#fff" />
+
+
+</LinearLayout>
